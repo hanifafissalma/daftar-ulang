@@ -1,0 +1,68 @@
+/*@keyframes bganimate {
+    0% {background-color: #049372;}
+    50% {background-color: #1E824C;}
+    100% {background-color: #049372;}
+}*/
+
+@keyframes slideLeft{
+  0%{
+    left: 100%;
+  }
+  50%{
+    left: 0%;
+  }
+  70%{
+    left: 5%;
+  }
+  85%{
+    left: 0%;
+  }
+  95%{
+    left: 2%;
+  }
+  100%{
+    left: 0%;
+  }
+}
+
+.bg-unj{
+    background: url('../img/unj_bg.png');
+}
+.abs-top-block{
+    position: absolute; top: 0; left: 0; right: 0;
+}
+.bottom-border{
+    border-bottom: solid 2px #5cb85c;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus{
+    color: #fff !important;
+    background-color: #5cb85c !important;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    background-color: #337ab7;
+    color: #fff;
+}
+.nav-tabs{
+    border-color: #337ab7;
+}
+.hasil-container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position:absolute;
+  left: 100%;
+}
+.no-overflow-x{
+  overflow-x: hidden;
+}
+.slide-left{
+  animation-name: slideLeft;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
